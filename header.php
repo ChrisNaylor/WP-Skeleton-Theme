@@ -42,5 +42,4 @@
 
 <body <?php body_class(); ?>><!-- the Body  -->
 
-<div class="container">
 

@@ -245,3 +245,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
+.sixteen.columns {
+    margin: 0;
+    padding: 0 0 0 4%;
+}
