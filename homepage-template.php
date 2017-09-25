@@ -165,34 +165,34 @@ get_header();
 
 <!-- CODE EXAMPLE ———————————————————————————————————————— -->
 <pre class="code-example">
-<code class="code-example-body prettyprint"><!-- .container is main centered wrapper -->
-<div class="container">
+     <code class="code-example-body prettyprint">&lt;!-- .container is main centered wrapper --&gt;
+&lt;div class="container"&gt;
 
-  <!-- columns should be the immediate child of a .row -->
-  <div class="row">
-    <div class="one column">One</div>
-    <div class="eleven columns">Eleven</div>
-  </div>
+  &lt;!-- columns should be the immediate child of a .row --&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="one column"&gt;One&lt;/div&gt;
+    &lt;div class="eleven columns"&gt;Eleven&lt;/div&gt;
+  &lt;/div&gt;
 
-  <!-- just use a number and class 'column' or 'columns' -->
-  <div class="row">
-    <div class="two columns">Two</div>
-    <div class="ten columns">Ten</div>
-  </div>
+  &lt;!-- just use a number and class 'column' or 'columns' --&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="two columns"&gt;Two&lt;/div&gt;
+    &lt;div class="ten columns"&gt;Ten&lt;/div&gt;
+  &lt;/div&gt;
 
-  <!-- there are a few shorthand columns widths as well -->
-  <div class="row">
-    <div class="one-third column">1/3</div>
-    <div class="two-thirds column">2/3</div>
-  </div>
-  <div class="row">
-    <div class="one-half column">1/2</div>
-    <div class="one-half column">1/2</div>
-  </div>
+  &lt;!-- there are a few shorthand columns widths as well --&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="one-third column"&gt;1/3&lt;/div&gt;
+    &lt;div class="two-thirds column"&gt;2/3&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="one-half column"&gt;1/2&lt;/div&gt;
+    &lt;div class="one-half column"&gt;1/2&lt;/div&gt;
+  &lt;/div&gt;
 
-</div>
+&lt;/div&gt;
 
-<!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->
+&lt;!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) --&gt;
 </code>
 </pre>
 <!-- ————————————————————————————————————————————————————— -->
@@ -224,22 +224,22 @@ get_header();
 
 <!-- CODE EXAMPLE ———————————————————————————————————————— -->
 <pre class="code-example">
-<code class="code-example-body prettyprint"><!-- Standard Headings -->
-<h1>Heading</h1>
-<h2>Heading</h2>
-<h3>Heading</h3>
-<h4>Heading</h4>
-<h5>Heading</h5>
-<h6>Heading</h6>
+<code class="code-example-body prettyprint">&lt;!-- Standard Headings --&gt;
+&lt;h1&gt;Heading&lt;/h1&gt;
+&lt;h2&gt;Heading&lt;/h2&gt;
+&lt;h3&gt;Heading&lt;/h3&gt;
+&lt;h4&gt;Heading&lt;/h4&gt;
+&lt;h5&gt;Heading&lt;/h5&gt;
+&lt;h6&gt;Heading&lt;/h6&gt;
 
-<!-- Base type size -->
-<p>The base type is 15px over 1.6 line height (24px)</p>
+&lt;!-- Base type size --&gt;
+&lt;p&gt;The base type is 15px over 1.6 line height (24px)&lt;/p&gt;
 
-<!-- Other styled text tags -->
-<strong>Bolded</strong>
-<em>Italicized</em>
-<a>Colored</a>
-<u>Underlined</u>
+&lt;!-- Other styled text tags --&gt;
+&lt;strong&gt;Bolded&lt;/strong&gt;
+&lt;em&gt;Italicized&lt;/em&gt;
+&lt;a&gt;Colored&lt;/a&gt;
+&lt;u&gt;Underlined&lt;/u&gt;
 </code>
 </pre>
 <!-- ————————————————————————————————————————————————————— -->
@@ -269,17 +269,17 @@ get_header();
 
 <!-- CODE EXAMPLE ———————————————————————————————————————— -->
 <pre class="code-example">
-<code class="code-example-body prettyprint"><!-- Standard buttons -->
-<a class="button" href="#">Anchor button</a>
-<button>Button element</button>
-<input type="submit" value="submit input">
-<input type="button" value="button input">
+<code class="code-example-body prettyprint">&lt;!-- Standard buttons --&gt;
+&lt;a class="button" href="#"&gt;Anchor button&lt;/a&gt;
+&lt;button&gt;Button element&lt;/button&gt;
+&lt;input value="submit input" type="submit"&gt;
+&lt;input value="button input" type="button"&gt;
 
-<!-- Primary buttons -->
-<a class="button button-primary" href="#">Anchor button</a>
-<button class="button-primary">Button element</button>
-<input class="button-primary" type="submit" value="submit input">
-<input class="button-primary" type="button" value="button input">
+&lt;!-- Primary buttons --&gt;
+&lt;a class="button button-primary" href="#"&gt;Anchor button&lt;/a&gt;
+&lt;button class="button-primary"&gt;Button element&lt;/button&gt;
+&lt;input class="button-primary" value="submit input" type="submit"&gt;
+&lt;input class="button-primary" value="button input" type="button"&gt;
 </code>
 </pre>
 <!-- ————————————————————————————————————————————————————— -->
@@ -320,34 +320,34 @@ get_header();
 
 <!-- CODE EXAMPLE ———————————————————————————————————————— -->
 <pre class="code-example">
-<code class="code-example-body prettyprint"><!-- The above form looks like this -->
-<form>
-  <div class="row">
-    <div class="six columns">
-      <label for="exampleEmailInput">Your email</label>
-      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-    </div>
-    <div class="six columns">
-      <label for="exampleRecipientInput">Reason for contacting</label>
-      <select class="u-full-width" id="exampleRecipientInput">
-        <option value="Option 1">Questions</option>
-        <option value="Option 2">Admiration</option>
-        <option value="Option 3">Can I get your number?</option>
-      </select>
-    </div>
-  </div>
-  <label for="exampleMessage">Message</label>
-  <textarea class="u-full-width" placeholder="Hi Dave &hellip;" id="exampleMessage"></textarea>
-  <label class="example-send-yourself-copy">
-    <input type="checkbox">
-    <span class="label-body">Send a copy to yourself</span>
-  </label>
-  <input class="button-primary" type="submit" value="Submit">
-</form>
+<code class="code-example-body prettyprint">&lt;!-- The above form looks like this --&gt;
+&lt;form&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="six columns"&gt;
+      &lt;label for="exampleEmailInput"&gt;Your email&lt;/label&gt;
+      &lt;input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email"&gt;
+    &lt;/div&gt;
+    &lt;div class="six columns"&gt;
+      &lt;label for="exampleRecipientInput"&gt;Reason for contacting&lt;/label&gt;
+      &lt;select class="u-full-width" id="exampleRecipientInput"&gt;
+        &lt;option value="Option 1"&gt;Questions&lt;/option&gt;
+        &lt;option value="Option 2"&gt;Admiration&lt;/option&gt;
+        &lt;option value="Option 3"&gt;Can I get your number?&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;label for="exampleMessage"&gt;Message&lt;/label&gt;
+  &lt;textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"&gt;&lt;/textarea&gt;
+  &lt;label class="example-send-yourself-copy"&gt;
+    &lt;input type="checkbox"&gt;
+    &lt;span class="label-body"&gt;Send a copy to yourself&lt;/span&gt;
+  &lt;/label&gt;
+  &lt;input class="button-primary" value="Submit" type="submit"&gt;
+&lt;/form&gt;
 
-<!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+&lt;!-- Always wrap checkbox and radio inputs in a label and use a &lt;span class="label-body"&gt; inside of it --&gt;
 
-<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+&lt;!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% --&gt;
 </code>
 </pre>
 <!-- ————————————————————————————————————————————————————— -->
@@ -390,19 +390,19 @@ get_header();
 
 <!-- CODE EXAMPLE ———————————————————————————————————————— -->
 <pre class="code-example">
-<code class="code-example-body prettyprint"><ul>
-  <li>Item 1</li>
-  <li>
+<code class="code-example-body prettyprint">&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;
     Item 2
-    <ul>
-      <li>Item 2.1</li>
-      <li>Item 2.2</li>
-    </ul>
-  </li>
-  <li>Item 3</li>
-</ul>
+    &lt;ul&gt;
+      &lt;li&gt;Item 2.1&lt;/li&gt;
+      &lt;li&gt;Item 2.2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
 
-<!-- Easily substitute any <ul> or an <ol> to get number lists or sublists. Skeleton doesn't support lists nested deeper than 2 levels -->
+&lt;!-- Easily substitute any &lt;ul&gt; or an &lt;ol&gt; to get number lists or sublists. Skeleton doesn't support lists nested deeper than 2 levels --&gt;
 </code>
 </pre>
 <!-- ————————————————————————————————————————————————————— -->
@@ -423,11 +423,11 @@ get_header();
 
 <!-- CODE EXAMPLE ———————————————————————————————————————— -->
 <pre class="code-example">
-<code class="code-example-body prettyprint"><pre><code>.some-class {
+<code class="code-example-body prettyprint">&lt;pre&gt;&lt;code&gt;.some-class {
   background-color: red;
-}</code></pre>
+}&lt;/code&gt;&lt;/pre&gt;
 
-<!-- Remember every whitespace and break will be preserved in a <pre>, including indentation in your code -->
+&lt;!-- Remember every whitespace and break will be preserved in a &lt;pre&gt;, including indentation in your code --&gt;
 </code>
 </pre>
 <!-- ————————————————————————————————————————————————————— -->
@@ -469,30 +469,30 @@ get_header();
 
 <!-- CODE EXAMPLE ———————————————————————————————————————— -->
 <pre class="code-example">
-<code class="code-example-body prettyprint"><table class="u-full-width">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Age</th>
-      <th>Sex</th>
-      <th>Location</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Dave Gamache</td>
-      <td>26</td>
-      <td>Male</td>
-      <td>San Francisco</td>
-    </tr>
-    <tr>
-      <td>Dwayne Johnson</td>
-      <td>42</td>
-      <td>Male</td>
-      <td>Hayward</td>
-    </tr>
-  </tbody>
-</table>
+<code class="code-example-body prettyprint">&lt;table class="u-full-width"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+      &lt;th&gt;Sex&lt;/th&gt;
+      &lt;th&gt;Location&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dave Gamache&lt;/td&gt;
+      &lt;td&gt;26&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;San Francisco&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dwayne Johnson&lt;/td&gt;
+      &lt;td&gt;42&lt;/td&gt;
+      &lt;td&gt;Male&lt;/td&gt;
+      &lt;td&gt;Hayward&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </code>
 </pre>
 <!-- ————————————————————————————————————————————————————— -->

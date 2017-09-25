@@ -74,7 +74,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin-top: 1.5rem;
   margin-bottom: 0; }
 .code-example-body {
-  white-space: pre;
+  white-space: pre-line;
   word-wrap: break-word }
 .example {
   position: relative; 
