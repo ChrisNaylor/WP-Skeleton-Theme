@@ -40,10 +40,12 @@ function Wps_load_styles() {
 	wp_register_style( 'skeleton-normalize', get_template_directory_uri() . '/stylesheets/normalize.css');
 	wp_register_style( 'skeleton-master', get_template_directory_uri() . '/stylesheets/skeleton.css');
 	wp_register_style( 'skeleton-style', get_template_directory_uri() . '/style.css');
+	wp_register_style( 'github-prettify-theme', get_template_directory_uri() . '/github-prettify-theme.css');
 
 	wp_enqueue_style( 'skeleton-normalize' );
 	wp_enqueue_style( 'skeleton-master' );
 	wp_enqueue_style( 'skeleton-style' );
+	wp_enqueue_style( 'github-prettify-theme' );
 
 }
 add_action('wp_enqueue_scripts', 'Wps_load_styles');
